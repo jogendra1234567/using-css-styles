@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container{
+            width: 80vw;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(2,1fr);
+            padding: 18px 16px;
+            padding-left: 12%;
+            gap: 4%;
+            vertical-align: top;
+            line-height: 25px;
+        }
+
+        img{
+            vertical-align: middle;
+            padding-bottom: 10px;
+        }
+
+        h3{
+            font-size: 18px;
+            line-height: 40px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .main .item{
+            padding: 8px 16px;
+            float: left;
+            width: auto;
+            border: none;
+            display: block;
+            outline: 0;
+        }
+        @media screen and (max-width:600px){
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+            
+        
+
+        .main .button{
+            white-space: normal;
+        }
+
+        .main .hover-black{
+            vertical-align: middle;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            background-color: inherit;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>My Food</h1></header>
+    <div class="container">
+        <div class="content">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" style="width: 100%;">
+            <h3>WEB PAGE FOR TEXT PROPERTY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <img src="https://www.w3schools.com/w3images/steak.jpg" alt="" style="width: 100%;">
+            <h3>WEB PAGE FOR TEXT PROPERTY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="" style="width: 100%;">
+            <h3>WEB PAGE FOR TEXT PROPERTY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <img src="	https://www.w3schools.com/w3images/wine.jpg" alt="" style="width: 100%;">
+            <h3>WEB PAGE FOR TEXT PROPERTY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="" style="width: 100%;">
+            <h3>WEB PAGE FOR TEXT PROPERTY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="" style="width: 100%;">
+            <h3>WEB PAGE FOR TEXT PROPERTY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" style="width: 100%;">
+            <h3>WEB PAGE FOR TEXT PROPERTY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="" style="width: 100%;">
+            <h3>WEB PAGE FOR TEXT PROPERTY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="main">
+            <a href="#" class="item button hover-black">«</a>
+            <a href="#" class="item button hover-black">1</a>
+            <a href="#" class="item button hover-black">2</a>
+            <a href="#" class="item button hover-black">3</a>
+            <a href="#" class="item button hover-black">4</a>
+            <a href="#" class="item button hover-black">5</a>
+        </div>
+    </div>
+</body>
+</html>

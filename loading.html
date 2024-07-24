@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>*{
+        background-color: black;
+    }
+        .loading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 200px;
+            color: white;
+            background: radial-gradient(circle,#ff0000,#0000ff);
+            border: 20px solid lightblue;
+            border-radius: 50%;
+            border-top: 20px solid #4885ED ;
+            border-bottom: 20px solid #98bcf9 ;
+            border-left: 20px solid #98bcf9 ;
+            border-right: 20px solid #4885ED ;
+        
+            animation: spin 0.8s 0s infinite normal;
+            
+
+        }
+        @keyframes spin {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            50%{
+                transform: ;
+            }
+            75%{
+                transform: ;
+            }
+            100%{
+                transform: ;
+            }
+          
+            
+            
+        }
+        .loading2{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 20px solid white;
+            border-top: 20px solid blue;
+            animation: spin2 1s 0s infinite normal;
+        }
+        @keyframes spin2 {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="loading">LOADING...</div>
+    <!-- <div class="loading2"></div> -->
+     <!-- <span class></span> -->
+</body>
+</html>
